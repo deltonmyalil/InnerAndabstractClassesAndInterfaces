@@ -21,3 +21,5 @@ public abstract class Animal {
 //in addition to method declaration
 //also, I added a getter
 //also, regular methods could be added in an abstract class
+
+//You cant instantiate an interface. Interface cannot have constructors.

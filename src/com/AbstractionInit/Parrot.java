@@ -1,6 +1,6 @@
 package com.AbstractionInit;
 
-public class Parrot extends Bird {
+public class Parrot extends Bird implements CanFly {
 
 	public Parrot(String name) {
 		super(name);
@@ -8,6 +8,7 @@ public class Parrot extends Bird {
 
 	@Override
 	public void fly() {
-		System.out.println(getName()+ " is Flying high!");
+		super.fly();
+		System.out.println(getName() + " is Flying high");
 	}
 }

@@ -16,5 +16,7 @@ public abstract class Bird extends Animal {
 		System.out.println(getName() + " is breathing");
 	}
 
-	public abstract void fly();
+	public void fly() {
+		System.out.println(getName()+ " is flapping its wings");
+	}
 }
