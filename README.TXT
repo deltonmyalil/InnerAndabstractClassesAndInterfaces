@@ -2,3 +2,4 @@
 2. Modifying the playlist app I made to work with interface
 3. Inner Classes init
 4. AbstractionInit - Also show the difference between abstract class and interface
+5. Create my own generic class
